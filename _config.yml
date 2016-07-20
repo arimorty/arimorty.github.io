@@ -1,8 +1,8 @@
 # Site settings
 title: Ari Cheshin
 description: ''
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+url: 'https://arimorty.github.io/'
+baseurl: 'https://arimorty.github.io/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
