@@ -1,5 +1,6 @@
 # Site settings
 title: Ari Cheshin
+description: "Software developer with experience in Android application development"
 url: 'https://arimorty.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
