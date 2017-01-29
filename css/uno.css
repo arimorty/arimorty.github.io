@@ -1284,7 +1284,7 @@ hr {
 	margin-left: 30px; }
 
 .cover-green {
-	background-color: rgba(21, 111, 120, 0.6);
+	background-color: rgba(51, 51, 51, 0.6);
 	background-image: -webkit-linear-gradient(-410deg, rgba(21, 111, 120, 0.6) 20%, rgba(6, 31, 33, 0.8));
 	background-image: linear-gradient(140deg,rgba(21, 111, 120, 0.6) 20%, rgba(6, 31, 33, 0.8)); }
 
