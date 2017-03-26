@@ -1,38 +1,27 @@
-# Site settings
-title: Ari Cheshin
-description: "Software developer with a keen interest in Android development"
-url: 'https://arimorty.github.io'
-baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+# Blog settings
+permalink: /blog/:title
 
-author:
-  name: 'Ari Cheshin'
-  email: cmaricontact@gmail.com
-  github_username:  arimorty
-  stack_overflow_username: 4418460
-  contact: cmaricontact@gmail.com
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+# My variables
+name: Ari Cheshin
+description: A Blog About Android Development
+google_verification: null
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
 markdown: kramdown
-highlighter: rouge
-
 kramdown:
-  # use Github Flavored Markdown
   input: GFM
-  # do not replace newlines by <br>s
   hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+highlighter: rouge

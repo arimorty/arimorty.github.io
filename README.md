@@ -1,45 +1,14 @@
-# jekyll-uno
+# blog
+My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-> :warning:
-  This theme requires ruby and rubygems installed
+### Install
 
-### Features
+* fork this repository
+* edit the `_config.yml` with your info
+* change the links in `_data/navigation.yml`
+* remove my posts from `_posts/`
+* rename your repo to ***your-username*.github.io**
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
-
----
-
-### Install and Test
-
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
-
-Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
-
----
-
-### Demo and Download
-
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
-
-![jekyll-uno - free Jekyll theme](/screenshot.png)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+### License
+All this stuff is under the [MIT License](https://raw.githubusercontent.com/getmicah/getmicah.github.io/master/LICENSE)
