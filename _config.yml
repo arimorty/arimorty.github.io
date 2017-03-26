@@ -1,6 +1,6 @@
 # Blog settings
 permalink: /blog/:title
-url: 'https://arimorty.github.io'
+url: 'https://arimorty.github.io/'
 baseurl: '/'
 
 # My variables
