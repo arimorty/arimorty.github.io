@@ -1,6 +1,7 @@
 # Blog settings
 permalink: /blog/:title
-
+url: 'https://arimorty.github.io'
+baseurl: '/'
 
 # My variables
 name: Ari Cheshin
