@@ -19,7 +19,7 @@ First of all, let's define what we want to achieve. Let's assume we want to have
 in a fragment, and right below the header we want to position our ```FloatingSearchView```. When the search gains focus, we want
 our search view to slide all the way to the top in order to start a full screen search.
 
-![Our fragment's look]({{ site.url }}assets/img/sliding_search_example_goal.png)
+![Our fragment's look]({{ site.url }}/assets/img/sliding_search_example_goal.png)
 
 If you look at the [layout][sliding_search_fragment_layout] file below, you will see that we have two main views, the header view and a ```FrameLayout``` that contains the search view (I will explain in a minute why we need to wrap the search view in a container). The important thing to take away from this layout is that we are moving the search view to the bottom of the header view by setting its ```translationY``` to the header layout's height (btw, this is the only place where I used a ```dimen``` resource because it's used in more than one place in the code, but of course in production you would perhaps set the rest of the values in  the res directory as well)
 
